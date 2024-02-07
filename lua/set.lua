@@ -4,7 +4,7 @@ vim.opt.relativenumber = true
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
-vim.opt.expandtab = true
+vim.opt.expandtab = false
 
 -- local group = vim.api.nvim_create_augroup("2 indent", { clear = true })
 -- vim.api.nvim_create_autocmd("BufRead", {
