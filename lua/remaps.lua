@@ -35,5 +35,7 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
 
+vim.keymap.set('n', '<C-n>', '<CMD>Neotree toggle<CR>', {})
+
 -- could be useful, but I don't like how it works when you just want to add empty space
 -- vim.keymap.set("i", "<Enter>", "<Enter><Esc>O", { noremap = true })
